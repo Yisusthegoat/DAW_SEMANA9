@@ -1,0 +1,34 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" trimDirectiveWhitespaces="true" %>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inscripción a talleres | Campus</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <main class="card">
+    <p class="eyebrow">CAMPUS · TALLERES UNIVERSITARIOS</p>
+    <span class="badge">Semana 09 · JSP</span>
+    <h1>Tu próximo paso<br>empieza aquí.</h1>
+    <p class="intro">Explora nuevas ideas y desarrolla tus habilidades. Elige un taller e inscríbete.</p>
+    <form method="post" action="procesar.jsp">
+      <label for="nombre">Nombre completo</label>
+      <input id="nombre" name="nombre" type="text" autocomplete="name" placeholder="Ej. María Torres" required maxlength="100">
+      <label for="correo">Correo electrónico</label>
+      <input id="correo" name="correo" type="email" autocomplete="email" placeholder="tu.nombre@universidad.edu.pe" required maxlength="254">
+      <label for="taller">Taller</label>
+      <select id="taller" name="taller" required>
+        <option value="" disabled selected>Selecciona tu taller</option>
+        <option value="php">Desarrollo Web con PHP</option>
+        <option value="java">Desarrollo Web con Java</option>
+        <option value="redes">Redes y Comunicaciones</option>
+      </select>
+      <button type="submit">Inscribirme <span aria-hidden="true">→</span></button>
+    </form>
+    <p class="footnote">Todos los campos son obligatorios. Tu inscripción se conserva durante esta sesión.</p>
+  </main>
+</body>
+</html>
+

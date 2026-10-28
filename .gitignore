@@ -1,0 +1,16 @@
+# Archivos locales, temporales y secretos
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.bak
+*.swp
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+tmp/
+*.class
+*.war
+
