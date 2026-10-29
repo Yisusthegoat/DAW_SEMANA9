@@ -13,4 +13,7 @@ Thumbs.db
 tmp/
 *.class
 *.war
+*.zip
+__pycache__/
+*.pyc
 

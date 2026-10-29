@@ -74,3 +74,12 @@ li + li { margin-top: 8px; }
   .card { padding: 28px 22px; }
 }
 
+
+.wide { max-width: 840px; }
+.table-wrap { overflow-x: auto; margin: 24px 0; }
+table { width: 100%; border-collapse: collapse; text-align: left; }
+caption { text-align: left; font-weight: 650; padding-bottom: 12px; }
+th, td { padding: 14px 12px; border-bottom: 1px solid #d6e2dc; overflow-wrap: anywhere; }
+th { background: #f2f7f4; font-size: .85rem; }
+.success { background: #e7f3ec; color: #20593e; border: 1px solid #a6cfb6; }
+.secondary { display: inline-block; margin-top: 18px; color: #146b52; }
